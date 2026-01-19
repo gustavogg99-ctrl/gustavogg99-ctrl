@@ -1,23 +1,24 @@
-### Olá, eu sou o Gustavo Henrique 👋
+### Hi there, I'm Gustavo Henrique 👋
 
 **Trust Architect & AI Governance Specialist**
 
-Sou um profissional focado na ponte entre a inovação da Inteligência Artificial e a segurança da Governança Corporativa. Meu objetivo é viabilizar a adoção de IA com responsabilidade, controle de riscos e eficiência operacional.
+I bridge the gap between **Artificial Intelligence innovation** and **Corporate Governance security**. My focus is on enabling responsible AI adoption by establishing robust risk controls, ensuring compliance, and driving operational efficiency.
 
-🔭 **Atualmente trabalhando em:**
-- Governança de TI e Transição para GRC
-- Políticas de Uso Aceitável de IA (AUP) e Privacidade
+🔭 **Currently working on:**
+- IT Governance & GRC Transition strategies
+- Corporate AI Acceptable Use Policies (AUP) & Data Privacy Guidelines
+- Mitigating "Shadow AI" risks in corporate environments
 
-🌱 **Atualmente aprendendo:**
-- **SQL** para Auditoria de Dados e Compliance
-- Arquitetura de **Agentes Autônomos de IA** (Microsoft Copilot Studio)
-- Normas ISO 42001 (AI Management System)
+🌱 **Currently learning & advancing in:**
+- **SQL** for Data Auditing and Compliance
+- **Autonomous AI Agents** Architecture (Microsoft Copilot Studio)
+- **ISO 42001** (Artificial Intelligence Management System)
 
-🛡️ **Minha Caixa de Ferramentas de Governança:**
-- **Risco & Compliance:** ISO 27001, LGPD, COBIT 2019
-- **Tech:** SQL (para auditoria), Power BI (para dashboards de risco)
-- **IA:** Azure AI Fundamentals, Microsoft Purview (DLP)
+🛡️ **My Governance Toolbox:**
+- **Risk & Compliance:** ISO 27001, LGPD/GDPR, COBIT 2019
+- **Tech & Audit:** SQL (Data Querying), Power BI (Risk Dashboards)
+- **AI & Security:** Azure AI Fundamentals, Microsoft Purview (DLP & Information Protection)
 
-📫 **Como me encontrar:**
+📫 **How to reach me:**
 - [LinkedIn](https://www.linkedin.com/in/gustavo99rodrigues/)
 - [E-mail](gustavohfr2003@gmail.com)
