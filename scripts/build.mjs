@@ -154,10 +154,10 @@ const TOOLS = [
   { id: 'claude', name: ['Claude'], icon: 'claude-color.svg' },
   { id: 'openai', name: ['OpenAI API'], icon: 'openai.svg', color: '#111111' },
   { id: 'copilot', name: ['Microsoft', 'Copilot'], icon: 'copilot-color.svg' },
-  { id: 'copilot-studio', name: ['Copilot', 'Studio'], mono: 'CS' },
+  { id: 'copilot-studio', name: ['Copilot', 'Studio'], icon: 'copilot-studio.png' },
   { id: 'n8n', name: ['n8n'], icon: 'n8n-color.svg' },
   { id: 'make', name: ['Make'], icon: 'make-color.svg' },
-  { id: 'power-automate', name: ['Power', 'Automate'], mono: 'PA' },
+  { id: 'power-automate', name: ['Power', 'Automate'], icon: 'power-automate.png' },
   // Engineering
   { id: 'python', name: ['Python'], icon: 'python-original.svg' },
   { id: 'typescript', name: ['TypeScript'], icon: 'typescript-original.svg' },
@@ -170,7 +170,7 @@ const TOOLS = [
   { id: 'git', name: ['Git'], icon: 'git-original.svg' },
   { id: 'github', name: ['GitHub'], icon: 'github.svg' },
   { id: 'whatsapp', name: ['WhatsApp API'], icon: 'whatsapp.svg' },
-  { id: 'servicenow', name: ['ServiceNow'], mono: 'SN' },
+  { id: 'servicenow', name: ['ServiceNow'], icon: 'servicenow.png' },
   { id: 'jira', name: ['Jira'], icon: 'jira-original.svg' },
   { id: 'microsoft-365', name: ['Microsoft 365'], icon: 'microsoft-color.svg' },
   // Security & governance: frameworks have no official logo here, so they get typographic cards.
@@ -183,6 +183,9 @@ const TOOLS = [
   { id: 'eu-ai-act', name: ['EU AI Act'], mono: 'EU', small: true },
 ];
 function inlineIcon(file, x, y, size, color) {
+  if (file.endsWith('.png')) { // raster logo supplied as PNG: embedded as a data URI, no external reference
+    return `<image x="${x}" y="${y}" width="${size}" height="${size}" href="data:image/png;base64,${readFileSync(`${root}icons/${file}`).toString('base64')}"/>`;
+  }
   const src = readFileSync(`${root}icons/${file}`, 'utf8').replace(/<\?xml[^>]*>/, '');
   const open = src.match(/<svg\b[^>]*>/)[0];
   const viewBox = (open.match(/viewBox="([^"]+)"/) || [])[1] || '0 0 24 24';

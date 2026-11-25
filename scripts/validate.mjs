@@ -59,7 +59,7 @@ for (const f of walk('assets').filter((f) => f.endsWith('.svg') && !f.startsWith
 
 // Every vendored icon is listed in docs/ICONS.md.
 const icons = readFileSync(resolve(root, 'docs/ICONS.md'), 'utf8');
-for (const f of readdirSync(resolve(root, 'assets/icons')).filter((f) => f.endsWith('.svg'))) if (!icons.includes(`\`${f}\``)) fail(`assets/icons/${f}: not listed in docs/ICONS.md`);
+for (const f of readdirSync(resolve(root, 'assets/icons')).filter((f) => /\.(svg|png)$/.test(f))) if (!icons.includes(`\`${f}\``)) fail(`assets/icons/${f}: not listed in docs/ICONS.md`);
 
 if (errors.length) { console.error(errors.map((e) => `✗ ${e}`).join('\n')); process.exit(1); }
 console.log(`✓ ${readmes.join(', ')} and generated SVGs passed.`);
