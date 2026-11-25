@@ -25,6 +25,28 @@ for (const name of readmes) {
   if (/http:\/\//.test(text)) fail(`${name}: plain http link`);
 }
 
+// EN/PT parity: same structure, links, numbers and art. The text itself is free to differ.
+if (readmes.length === 2) {
+  const [en, pt] = readmes.map((n) => readFileSync(resolve(root, n), 'utf8'));
+  const pair = (label, a, b) => { if (JSON.stringify(a) !== JSON.stringify(b)) fail(`EN/PT parity: ${label} differ\n    EN: ${JSON.stringify(a)}\n    PT: ${JSON.stringify(b)}`); };
+  const sorted = (xs) => [...xs].sort();
+  const headings = (t) => [...t.matchAll(/^(#{1,6}) /gm)].map((m) => m[1].length);
+  const links = (t) => [...t.matchAll(/(?:\]\(|href=")(https:[^")]+|mailto:[^")]+)/g)].map((m) => m[1]);
+  const norm = (f) => f.replace(/-(en|pt)(?=\.|-mobile)/, '-LANG'); // hero-en-mobile.svg -> hero-LANG-mobile.svg
+  const assets = (t) => [...t.matchAll(/(?:\(|src="|srcset=")(assets\/[^")]+)/g)].map((m) => m[1]);
+  const langSwitch = (t, to) => new RegExp(`^<p align="right"><a href="${to}">[^<]+</a></p>`).test(t);
+  const stripLang = (xs) => xs.filter((u) => !/^https:\/\/github\.com\/gustavogg99-ctrl\/ethical-ai-policy\/blob\/main\/policy\//.test(u)); // the policy button points at the matching language file
+  pair('heading levels (order)', headings(en), headings(pt));
+  pair('external links', sorted(stripLang(links(en))), sorted(stripLang(links(pt))));
+  pair('art used (ignoring language suffix)', assets(en).map(norm), assets(pt).map(norm));
+  pair('numbers', sorted(en.match(/\d+/g) || []), sorted(pt.match(/\d+/g) || []));
+  pair('code blocks', (en.match(/```/g) || []).length, (pt.match(/```/g) || []).length);
+  if (!langSwitch(en, 'README.pt.md')) fail('README.md: missing language link to README.pt.md at the top');
+  if (!langSwitch(pt, 'README.md')) fail('README.pt.md: missing language link to README.md at the top');
+  for (const a of assets(pt)) if (/-en[.-]/.test(a)) fail(`README.pt.md: uses English art ${a}`);
+  for (const a of assets(en)) if (/-pt[.-]/.test(a)) fail(`README.md: uses Portuguese art ${a}`);
+}
+
 // Every generated SVG has a title, and only the hero animates.
 const walk = (d) => readdirSync(resolve(root, d), { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? walk(`${d}/${e.name}`) : [`${d}/${e.name}`]));
 for (const f of walk('assets').filter((f) => f.endsWith('.svg') && !f.startsWith('assets/icons/'))) {

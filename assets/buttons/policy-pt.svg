@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 158 40" width="158" height="40" role="img" aria-labelledby="t d"><title id="t">Ler a política</title><desc id="d">Ler a política link</desc><defs>
+<linearGradient id="silver" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e5e5e5"/><stop offset="1" stop-color="#9ca3af"/></linearGradient>
+<linearGradient id="silverU" gradientUnits="userSpaceOnUse" x1="30" y1="0" x2="560" y2="0"><stop offset="0" stop-color="#e5e5e5"/><stop offset="1" stop-color="#9ca3af"/></linearGradient>
+<radialGradient id="glow" cx="0.12" cy="0" r="0.9"><stop offset="0" stop-color="#ffffff" stop-opacity=".07"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+</defs><g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" fill="#ededed"><rect x="1" y="4" width="156" height="32" rx="8" fill="#e5e5e5" stroke="#e5e5e5"/>
+<text x="70" y="25" text-anchor="middle" font-size="13" font-weight="600" fill="#0a0a0a">Ler a política</text>
+<path d="m134 15 5 5-5 5m-6-5h11" fill="none" stroke="#0a0a0a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
