@@ -22,16 +22,22 @@ Logos and product names belong to their owners. They appear in this profile only
 | GitHub Actions | `githubactions.svg` | Simple Icons | CC0 |
 | GitHub | `github.svg` | Simple Icons | CC0 |
 | WhatsApp API | `whatsapp.svg` | Simple Icons | CC0 |
+| Copilot Studio | `copilot-studio.png` | Microsoft product logo, supplied by the profile owner | Trademark of Microsoft; used only to name the tool |
+| Power Automate | `power-automate.png` | Microsoft product logo (2020 version), supplied by the profile owner | Trademark of Microsoft; used only to name the tool |
+| ServiceNow | `servicenow.png` | ServiceNow logo mark, supplied by the profile owner | Trademark of ServiceNow; used only to name the tool |
 
 Lobe Icons is MIT licensed, Copyright (c) LobeHub. See https://github.com/lobehub/lobe-icons/blob/master/LICENSE.
 
+## Raster logos
+
+The three vendor logos above are PNGs, not SVGs: the white background of the supplied JPEGs was made transparent, the image was cropped to the mark and resized to 192×192. The drawing is not otherwise altered. `scripts/build.mjs` embeds them in the card as a data URI. Replace them with the vendors' official SVGs if you get them.
+
 ## Cards without a logo
 
-- **Copilot Studio, Power Automate, ServiceNow:** none of the three open icon sets above includes them. They use a typographic card until official icons are added from Microsoft's product icon downloads and ServiceNow's brand resources, respecting each owner's terms.
 - **ISO/IEC 27001, ISO/IEC 42001, LGPD, NIST AI RMF, ITIL 4, COBIT, EU AI Act:** frameworks and laws, not products. They get typographic cards on purpose. No seal or certification mark is drawn.
 
 ## Adding a tool
 
-1. Put the source SVG in `assets/icons/` and add a row above (source, version, license).
+1. Put the source SVG (or PNG) in `assets/icons/` and add a row above (source, version, license).
 2. Add an entry to `TOOLS` in `scripts/build.mjs`.
 3. Run `node scripts/build.mjs` and `node scripts/validate.mjs`, then add the card to both READMEs.
