@@ -160,7 +160,7 @@ I'm finishing degrees in Systems Analysis and Development and in Journalism (exp
 
 ```text
 gg@governance:~ / now
-├── work    → Hired by Aoop (an NTT DATA company), Junior in ServiceNow, AI track. Starts December 2026.
+├── work    → Hired by Aoop (an NTT DATA company) as ServiceNow Technical Consultant - JR. Starts December 2026.
 ├── study   → Microsoft SC-900 and Scrum Master
 └── writing → ggblog99.wordpress.com, a public log of what I learn and build (PT/EN)
 ```
