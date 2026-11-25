@@ -71,9 +71,9 @@ An original, adoptable template for governing the ethical, secure and compliant 
 
 ### 04 / Portfolio
 
-[![Portfolio: Next.js on Vercel, built part by part with documented decisions. 38 parts, one pull request each.](assets/projects/portfolio-en.svg)](https://gustavorodrigues.vercel.app)
+[![Portfolio: Next.js on Vercel, built part by part with documented decisions. 43 parts, one pull request each.](assets/projects/portfolio-en.svg)](https://gustavorodrigues.vercel.app)
 
-My bilingual portfolio (EN/PT). It was built in 38 parts, each one a branch and a pull request that must pass lint, typecheck, tests and build, with every decision recorded. Every claim on the site traces to a source, and a claims guard fails the build on banned terms.
+My bilingual portfolio (EN/PT). It was built in 43 parts, each one a branch and a pull request that must pass lint, typecheck, tests and build, with every decision recorded. Every claim on the site traces to a source, and a claims guard fails the build on banned terms.
 
 - **Controls:** Content Security Policy and security headers, cookie-less analytics, a privacy page with legal basis and data-subject rights.
 - **Stack:** Next.js, TypeScript, Tailwind CSS, Vercel.
