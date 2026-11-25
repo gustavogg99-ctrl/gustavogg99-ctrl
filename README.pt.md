@@ -160,7 +160,7 @@ Estou concluindo as graduações em Análise e Desenvolvimento de Sistemas e em 
 
 ```text
 gg@governance:~ / agora
-├── trabalho → Contratado pela Aoop (empresa NTT DATA), Júnior em ServiceNow, trilha de IA. Começo em dezembro de 2026.
+├── trabalho → Contratado pela Aoop (empresa NTT DATA) como ServiceNow Technical Consultant - JR. Começo em dezembro de 2026.
 ├── estudo   → Microsoft SC-900 e Scrum Master
 └── escrita  → ggblog99.wordpress.com, um diário público do que aprendo e construo (PT/EN)
 ```
