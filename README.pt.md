@@ -71,9 +71,9 @@ Um template original e adotável para governar o uso ético, seguro e em conform
 
 ### 04 / Portfolio
 
-[![Portfolio: Next.js na Vercel, construído parte a parte com decisões documentadas. 38 partes, um pull request cada.](assets/projects/portfolio-pt.svg)](https://gustavorodrigues.vercel.app)
+[![Portfolio: Next.js na Vercel, construído parte a parte com decisões documentadas. 43 partes, um pull request cada.](assets/projects/portfolio-pt.svg)](https://gustavorodrigues.vercel.app)
 
-Meu portfólio bilíngue (EN/PT). Foi construído em 38 partes, cada uma uma branch e um pull request que precisa passar em lint, typecheck, testes e build, com toda decisão registrada. Cada afirmação do site remete a uma fonte, e uma trava de afirmações derruba o build se aparecer um termo proibido.
+Meu portfólio bilíngue (EN/PT). Foi construído em 43 partes, cada uma uma branch e um pull request que precisa passar em lint, typecheck, testes e build, com toda decisão registrada. Cada afirmação do site remete a uma fonte, e uma trava de afirmações derruba o build se aparecer um termo proibido.
 
 - **Controles:** Content Security Policy e headers de segurança, analytics sem cookies, uma página de privacidade com base legal e direitos do titular.
 - **Stack:** Next.js, TypeScript, Tailwind CSS, Vercel.
