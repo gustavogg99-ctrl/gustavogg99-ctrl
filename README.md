@@ -1,3 +1,5 @@
+<p align="right"><a href="README.pt.md">Português</a></p>
+
 <p align="center"><picture><source media="(max-width: 600px)" srcset="assets/hero-en-mobile.svg" /><img src="assets/hero-en.svg" width="960" alt="Gustavo Rodrigues: I build AI that is secure, tested, auditable. A dark console banner with an audit log of the controls used in the projects below." /></picture></p>
 
 # Gustavo Rodrigues
@@ -124,13 +126,13 @@ Regression testing and CI on every project above. ServiceNow: App Engine Studio,
 ### Security & governance
 
 <p>
-<img src="assets/tools/iso-27001.svg" width="160" alt="ISO/IEC 27001" />
-<img src="assets/tools/iso-42001.svg" width="160" alt="ISO/IEC 42001" />
-<img src="assets/tools/lgpd.svg" width="160" alt="LGPD" />
-<img src="assets/tools/nist-ai-rmf.svg" width="160" alt="NIST AI RMF" />
-<img src="assets/tools/itil-4.svg" width="160" alt="ITIL 4" />
-<img src="assets/tools/cobit.svg" width="160" alt="COBIT (conceptual)" />
-<img src="assets/tools/eu-ai-act.svg" width="160" alt="EU AI Act (conceptual)" />
+<img src="assets/tools/iso-27001-en.svg" width="160" alt="ISO/IEC 27001" />
+<img src="assets/tools/iso-42001-en.svg" width="160" alt="ISO/IEC 42001" />
+<img src="assets/tools/lgpd-en.svg" width="160" alt="LGPD" />
+<img src="assets/tools/nist-ai-rmf-en.svg" width="160" alt="NIST AI RMF" />
+<img src="assets/tools/itil-4-en.svg" width="160" alt="ITIL 4" />
+<img src="assets/tools/cobit-en.svg" width="160" alt="COBIT (conceptual)" />
+<img src="assets/tools/eu-ai-act-en.svg" width="160" alt="EU AI Act (conceptual)" />
 </p>
 
 **ISO/IEC 27001 · ISO/IEC 42001 · LGPD · NIST AI RMF · ITIL 4 · COBIT (conceptual) · EU AI Act (conceptual)**
