@@ -119,7 +119,7 @@ Agentes, engenharia de prompts e avaliação de LLMs (acurácia e custo). Constr
 <img src="assets/tools/microsoft-365.svg" width="160" alt="Microsoft 365" />
 </p>
 
-**Python · TypeScript · Next.js · Tailwind CSS · Vercel · Cloudflare Workers / D1 · Supabase · SQL · GitHub Actions · Git · GitHub · API do WhatsApp · ServiceNow · Jira · Microsoft 365**
+**Python · TypeScript · Next.js · Tailwind CSS · Vercel · Cloudflare Workers / D1 · Supabase · GitHub Actions · Git · GitHub · API do WhatsApp · ServiceNow · Jira · Microsoft 365**
 
 Testes de regressão e CI em todos os projetos acima. ServiceNow: App Engine Studio, Flow Designer, Service Catalog e GlideAjax.
 
