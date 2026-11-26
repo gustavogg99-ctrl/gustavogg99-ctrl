@@ -119,7 +119,7 @@ Agents, prompt engineering and LLM evaluation (accuracy and cost). I built Whats
 <img src="assets/tools/microsoft-365.svg" width="160" alt="Microsoft 365" />
 </p>
 
-**Python · TypeScript · Next.js · Tailwind CSS · Vercel · Cloudflare Workers / D1 · Supabase · SQL · GitHub Actions · Git · GitHub · WhatsApp API · ServiceNow · Jira · Microsoft 365**
+**Python · TypeScript · Next.js · Tailwind CSS · Vercel · Cloudflare Workers / D1 · Supabase · GitHub Actions · Git · GitHub · WhatsApp API · ServiceNow · Jira · Microsoft 365**
 
 Regression testing and CI on every project above. ServiceNow: App Engine Studio, Flow Designer, Service Catalog and GlideAjax.
 
